@@ -5,7 +5,7 @@ import { CarrosTopApp } from './CarrosTopApp'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter >
+    <BrowserRouter basename='/ds-react-ex1' >
       <CarrosTopApp />
     </BrowserRouter>
   </React.StrictMode>
